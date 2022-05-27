@@ -3,13 +3,14 @@
     --first-title-color: #212121;
     --second-title-color: #ffffff;
     --third-title-color: #757575;
-    --footer-color: rgba(255, 255, 255, 0.6);
-    --hero-bgc-color: #2f303a;
+    --foot-color: rgba(255, 255, 255, 0.6);
+    --key-bgc-color: #2f303a;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #ffffff;
+    font-size: 14px;
+    color: var(--first-title-color);
 
 }
 
@@ -20,6 +21,8 @@ body {
 .link {
     text-decoration: none;
 }
+
+
 
 /*-------------------------------------HEADER--------------------------------------*/
 
@@ -68,10 +71,12 @@ body {
     color: var(--accent-color);
 }
 
+
+
 /*--------------------------------------HERO--------------------------------------------*/
 
 .hero {
-    background-color: var(--hero-bgc-color);
+    background-color: var(--key-bgc-color);
 }
 
 .hero-title {
@@ -178,7 +183,7 @@ body {
 /*--------------------------------------FOOTER--------------------------------------------*/
 
 .footer {
-    background: var(--hero-bgc-color);
+    background: var(--key-bgc-color);
 }
 
 .footer-address {
@@ -212,7 +217,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--footer-color)
+    color: var(--foot-color)
 }
 
 .footer-map:hover,
@@ -240,7 +245,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--first-title-color);
     background: #F5F4FA;
-    border-radius: 4px;
+    border: none;
 }
 
 .btn:hover,
