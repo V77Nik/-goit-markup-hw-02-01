@@ -47,6 +47,10 @@ body {
     color: var(--first-title-color);
 }
 
+.current {
+    color: #2196f3;
+}
+
 .header-mailto,
 .header-tel {
     font-weight: 500;
@@ -269,4 +273,9 @@ body {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--third-title-color);
+}
+
+.btn.current {
+    color: #ffffff;
+    background-color: #2196f3;
 }
